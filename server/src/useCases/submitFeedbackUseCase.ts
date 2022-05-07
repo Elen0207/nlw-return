@@ -4,7 +4,7 @@ import { IFeedbacksRepository } from "../repositories/IFeedbacksRepository";
 interface SubmitFeedbackUseCaseRequest {
   type: string;
   comment: string;
-  screenshot?: string;
+  screenshot: string;
 }
 
 export class SubmitFeedbackUseCase {
